@@ -292,6 +292,7 @@
 
 /* small device view */
 @media screen and (max-width: 576px) {
+  /* header section css */
   .header {
     /* width:80%; */
     padding: 0;
@@ -301,6 +302,7 @@
   .nav-item {
     flex-direction: column;
   }
+  /* banner section css */
   .banner-section {
     padding: 0;
     margin: 0;
@@ -319,6 +321,8 @@
   .banner-image img {
     width: 100%;
   }
+
+  /* feature section css */
   .feature-section {
     /* padding: 0;
     margin: 0; */
@@ -346,89 +350,92 @@
     font-size: 15px;
     margin-bottom: 15px;
   }
+  /* main feature section css */
   .main-feature {
     margin: 0;
     padding: 0;
     width: 100%;
     flex-direction: column;
   }
-  .main-feature-title{
+  .main-feature-title {
     font-size: 35px;
   }
-  .main-feature-deescription{
+  .main-feature-deescription {
     margin: 0;
     padding: 0;
     width: 100%;
     text-align: center;
     font-size: 12px;
   }
-  .card-description{
+  .card-description {
     width: 100%;
     font-size: 12px;
   }
-.main-feature-image img{
+  .main-feature-image img {
     width: 100%;
-}
-.exp-div{
+  }
+  .exp-div {
     margin: 0;
     margin-left: 45px;
     height: 50px;
-}
-.exp-title{
+  }
+  .exp-title {
     font-size: 30px;
-}
-
-.fact-info{
+  }
+/* some facts section css */
+  .fact-info {
     width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
-}
-.fact-title{
+  }
+  .fact-title {
     margin-top: 30px;
-}
-.fact-description{
+  }
+  .fact-description {
     padding: 0;
     width: 100%;
     font-size: 15px;
-}
-.acheivements{
+  }
+  .acheivements {
     padding: 0;
     flex-direction: column;
     gap: 0px;
     margin: 0;
     align-items: center;
-}
-
-.team-cards{
+  }
+/* team section css */
+  .team-cards {
     padding: 0;
     grid-template-columns: 1fr;
+  }
 
-}
-
-.sponser-title{
+  /* sponser section css */
+  .sponser-title {
     width: 100%;
-}  
-.sponser-description{
+  }
+  .sponser-description {
     margin: 0;
     padding: 0;
     width: 100%;
     font-size: 15px;
-}
-.sponser-images{
+  }
+  .sponser-images {
     padding: 0;
     flex-direction: column;
     gap: 0;
     align-items: center;
     margin-top: 25px;
-}
+  }
 
- .footer {
+  /* footer section css */
+
+  .footer {
     padding: 0;
     margin: 0;
     width: 100%;
   }
-  .footer-description{
+  .footer-description {
     font-size: 15px;
     padding: 10px;
   }
