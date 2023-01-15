@@ -217,7 +217,32 @@
   font-size: 20px;
   color: #727272;
 }
+/* team section css */
+.team-section {
+  margin-bottom: 100px;
+}
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px 250px;
+}
+.team-card {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background: #ffffff;
 
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.team-card:hover {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.team-card img {
+  height: 125px;
+}
 /* sponser section css */
 .sponser-info {
   text-align: center;
@@ -261,5 +286,150 @@
   text-align: center;
   color: #424242;
   padding-top: 40px;
-  
+}
+
+/* rresposive css  */
+
+/* small device view */
+@media screen and (max-width: 576px) {
+  .header {
+    /* width:80%; */
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  .nav-item {
+    flex-direction: column;
+  }
+  .banner-section {
+    padding: 0;
+    margin: 0;
+  }
+  .banner-title {
+    font-size: 35px;
+  }
+  .banner-description {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .banner-image img {
+    width: 100%;
+  }
+  .feature-section {
+    /* padding: 0;
+    margin: 0; */
+    width: 100%;
+    flex-direction: column;
+  }
+  .feature-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-list {
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    text-align: center;
+  }
+  .feature-title,
+  .feature-title .bold,
+  .feature-title .feature-color {
+    font-size: 35px;
+  }
+  .feature-description {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .main-feature {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-feature-title{
+    font-size: 35px;
+  }
+  .main-feature-deescription{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
+  .card-description{
+    width: 100%;
+    font-size: 12px;
+  }
+.main-feature-image img{
+    width: 100%;
+}
+.exp-div{
+    margin: 0;
+    margin-left: 45px;
+    height: 50px;
+}
+.exp-title{
+    font-size: 30px;
+}
+
+.fact-info{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.fact-title{
+    margin-top: 30px;
+}
+.fact-description{
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+}
+.acheivements{
+    padding: 0;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0;
+    align-items: center;
+}
+
+.team-cards{
+    padding: 0;
+    grid-template-columns: 1fr;
+
+}
+
+.sponser-title{
+    width: 100%;
+}  
+.sponser-description{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+}
+.sponser-images{
+    padding: 0;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    margin-top: 25px;
+}
+
+ .footer {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .footer-description{
+    font-size: 15px;
+    padding: 10px;
+  }
 }
