@@ -30,3 +30,139 @@
   color: #424242;
   list-style: none;
 }
+
+/* banner section css */
+.banner-section {
+  background: rgba(255, 144, 14, 0.1);
+  text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: #131313;
+  padding-top: 55px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  width: 868px;
+  /* padding: 0 546px; */
+  margin: 30px 500px 30px 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px 25px;
+  margin-bottom: 50px;
+}
+.banner-image img {
+  margin-bottom: 45px;
+}
+
+/* feature section css */
+.feature-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  margin-top: 85px;
+}
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.feature-title {
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+  margin-bottom: 25px;
+}
+.feature-title .bold {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.feature-title .feature-color {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff900e;
+}
+.feature-description {
+  width: 537px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+
+/* main feature section css */
+.main-feature {
+  display: flex;
+  justify-content: center;
+  gap: 115px;
+  margin-top: 170px;
+  margin-bottom: 130px;
+}
+.main-feature-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.main-feature-deescription {
+  width: 586px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+.feature-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+.card-description {
+  width: 514px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.main-feature-image img {
+  height: 835px;
+}
+.exp-div {
+  height: 100px;
+  width: 200px;
+  background: #ff900e;
+  position: relative;
+  margin-top: -130px;
+  margin-left: -60px;
+  border-radius: 8px;
+  padding: 45px 42px;
+}
+.exp-div .exp-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
