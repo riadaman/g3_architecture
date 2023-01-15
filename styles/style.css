@@ -166,3 +166,54 @@
   text-align: center;
   color: #ffffff;
 }
+
+/* some fact section css */
+
+.fact-info {
+  padding: 0 240px;
+}
+.fact-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.fact-description {
+  width: 542px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 100px;
+}
+.acheivements {
+  display: flex;
+  padding: 0 300px;
+  gap: 125px;
+}
+.achivement {
+  height: 240px;
+  width: 240px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 150px;
+  transition: 1s;
+}
+.achivement .logo img{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.achivement .number {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+  margin-bottom: 5px;
+}
+.achivement .acheivement-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+.achivement:hover{
+    transform: scale(1.3);
+}
